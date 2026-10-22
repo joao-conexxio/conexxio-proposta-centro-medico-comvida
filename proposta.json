@@ -1,0 +1,311 @@
+{
+  "slug": "centro-medico-comvida",
+  "negocio": {
+    "nome": "Centro Médico Com Vida",
+    "logo": "brand/logo.png",
+    "whatsapp": "551125512666",
+    "telefone": "(11) 2551-2666",
+    "unidades": [
+      {
+        "bairro": "Vila Princesa Isabel · Guaianases",
+        "endereco": "Rua Centralina, 370 – Vila Princesa Isabel, Guaianases, São Paulo – SP, 08410-100",
+        "telefone": "(11) 2551-2666"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#0B7F9C",
+    "brand2": "#7FA32E",
+    "ink": "#24323A",
+    "bg": "#FFFFFF",
+    "pulse": "#0DB26B",
+    "radius": "10px",
+    "registro": "clinico",
+    "fontDisplay": "Nunito",
+    "fontBody": "Nunito Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "ecg",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Especialidades",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Como pagar",
+            "href": "#pagamento"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Rua Centralina, 370 · Guaianases",
+        "h1": "23 especialidades e dentista num endereço só",
+        "lead": "Clínico geral, cardiologista, ginecologista, ortopedista, fisioterapia e mais, na Vila Princesa Isabel. Pelo convênio, no particular ou com o cartão de descontos.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver especialidades",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Marque sua consulta",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Clínica médica",
+          "Cardiologia",
+          "Ginecologia",
+          "Ortopedia",
+          "Fisioterapia",
+          "Dermatologia",
+          "Oftalmologia",
+          "Otorrino",
+          "Endocrinologia",
+          "Psicologia",
+          "Dentista",
+          "Rua Centralina, 370"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "A Com Vida em números",
+        "itens": [
+          {
+            "valor": "23",
+            "rotulo": "especialidades médicas no mesmo prédio",
+            "contar": 23
+          },
+          {
+            "valor": "4,7",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "795",
+            "rotulo": "avaliações de pacientes",
+            "contar": 795
+          },
+          {
+            "valor": "10",
+            "rotulo": "dependentes num só cartão de descontos",
+            "contar": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Por que existe a Com Vida",
+        "citacao": "Ver um especialista não deveria custar o dia inteiro.",
+        "texto": [
+          "Em muito bairro da Zona Leste, consulta com especialista significa atravessar a cidade, esperar meses pela vaga ou pagar caro. A Com Vida juntou na Rua Centralina o clínico geral, os especialistas, a fisioterapia e o dentista, para a família resolver perto de casa.",
+          "Quem tem convênio usa o convênio. Quem não tem paga particular ou entra no cartão de descontos, com consulta a partir de R$ 39,99. O agendamento é pelo WhatsApp, no mesmo número do telefone fixo."
+        ],
+        "imagem": "fotos/espera.jpg",
+        "imagemAlt": "Sala de espera da Com Vida, com cadeiras azuis e paredes claras"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "As especialidades",
+        "lead": "Agrupadas pelo que você está sentindo. Não sabe por onde começar? Comece pelo clínico geral, que encaminha para o especialista certo.",
+        "itens": [
+          {
+            "nome": "Clínica médica e geriatria",
+            "descricao": "Check-up, pressão, diabetes e o cuidado do idoso.",
+            "icone": "estetoscopio"
+          },
+          {
+            "nome": "Coração e circulação",
+            "descricao": "Cardiologia e vascular: pressão alta, palpitação, varizes.",
+            "icone": "coracao"
+          },
+          {
+            "nome": "Saúde da mulher",
+            "descricao": "Ginecologia: consulta de rotina e preventivo.",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Ossos e articulações",
+            "descricao": "Ortopedia e reumatologia: coluna, joelho, dor que não passa.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Fisioterapia",
+            "descricao": "Reabilitação depois de lesão, cirurgia ou dor crônica.",
+            "icone": "coluna"
+          },
+          {
+            "nome": "Cabeça e mente",
+            "descricao": "Neurologia, psiquiatria e psicologia: sono, dor de cabeça, ansiedade.",
+            "icone": "cerebro"
+          },
+          {
+            "nome": "Olhos, ouvido e garganta",
+            "descricao": "Oftalmologia para a vista e otorrino para sinusite e rinite.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Hormônios e alimentação",
+            "descricao": "Endocrinologia, nutrologia e nutrição: tireoide, diabetes, peso.",
+            "icone": "nutricao"
+          },
+          {
+            "nome": "Digestão e urologia",
+            "descricao": "Gastro, proctologia e urologia, do estômago à próstata.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Pele",
+            "descricao": "Dermatologia e estética facial, com avaliação em consulta.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Cirurgia",
+            "descricao": "Cirurgia geral e cirurgia plástica, a partir da consulta.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Dentista",
+            "descricao": "Consultório odontológico no mesmo prédio dos médicos.",
+            "icone": "dente"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/pagamento.html"
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "Por dentro da Com Vida",
+        "lead": "Consultórios, sala de fisioterapia e consultório odontológico, todos no mesmo prédio.",
+        "itens": [
+          {
+            "imagem": "fotos/oftalmo.jpg",
+            "legenda": "Consultório com tabela de acuidade visual"
+          },
+          {
+            "imagem": "fotos/odonto.jpg",
+            "legenda": "Odontologia"
+          },
+          {
+            "imagem": "fotos/fisio.jpg",
+            "legenda": "Sala de fisioterapia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "numerados",
+      "data": {
+        "titulo": "Como marcar",
+        "lead": "Tudo começa por uma mensagem.",
+        "itens": [
+          {
+            "titulo": "Mande uma mensagem",
+            "texto": "No WhatsApp (11) 2551-2666. Diga a especialidade e se vai pelo convênio, particular ou cartão.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Escolha o horário",
+            "texto": "A recepção responde com os dias livres do profissional e confirma a consulta.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Venha à Centralina",
+            "texto": "Rua Centralina, 370. Traga documento com foto e a carteirinha, se for pelo convênio.",
+            "icone": "local"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/endereco-unico.html"
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Vocês atendem emergência?",
+            "r": "Não. A Com Vida atende consultas com hora marcada. Em emergência, procure o pronto-socorro mais próximo ou ligue 192."
+          },
+          {
+            "p": "Quais convênios vocês aceitam?",
+            "r": "Amil, Bradesco Saúde, Mediservice, Ameplan, Garantia Saúde, São Miguel Saúde, Supera Saúde, Unihosp, entre outros. Confirme o seu pelo WhatsApp antes de marcar."
+          },
+          {
+            "p": "Não tenho convênio. Consigo consultar?",
+            "r": "Sim. Dá para pagar particular ou fazer o cartão de descontos, com consulta a partir de R$ 39,99 e até 10 dependentes."
+          },
+          {
+            "p": "Vocês cobram por telefone?",
+            "r": "Não. A Com Vida não faz cobrança por ligação. Se alguém ligar pedindo pagamento em nome da clínica, desligue e fale com a gente pelo WhatsApp oficial."
+          },
+          {
+            "p": "Existe outra unidade?",
+            "r": "Não. A única Com Vida fica na Rua Centralina, 370, na Vila Princesa Isabel."
+          },
+          {
+            "p": "Tem dentista?",
+            "r": "Tem. O consultório odontológico fica no mesmo prédio dos consultórios médicos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Vila Princesa Isabel, em Guaianases",
+        "imagem": "fotos/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Marque sua consulta perto de casa",
+        "lead": "Diga a especialidade e como prefere pagar. A recepção responde pelo WhatsApp com o próximo horário livre.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Não atendemos emergências. Em caso de urgência, procure o pronto-socorro mais próximo ou ligue 192."
+      }
+    }
+  ]
+}

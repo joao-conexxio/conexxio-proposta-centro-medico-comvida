@@ -1,0 +1,33 @@
+<section class="blk-unico" id="endereco-unico">
+  <div class="wrap">
+    <div class="blk-unico__faixa" data-reveal>
+      <span class="blk-unico__ico"><!--icone:local--></span>
+      <div>
+        <h2 class="blk-unico__titulo">Só existe uma Com Vida</h2>
+        <p class="blk-unico__texto" data-acende>Não temos filial e não fazemos cobrança por telefone. O endereço é um só, Rua Centralina, 370, e o único WhatsApp da clínica é o (11) 2551-2666. Recebeu ligação pedindo pagamento em nosso nome? Desligue e fale com a gente por aqui.</p>
+      </div>
+    </div>
+    <div class="blk-unico__motivo" aria-hidden="true"><!--motivo:rule--></div>
+  </div>
+</section>
+
+<style>
+.blk-unico{padding-block:var(--sp-5)}
+.blk-unico__faixa{
+  display:grid;gap:var(--sp-3);align-items:start;
+  padding:var(--sp-4) var(--sp-3);border-radius:var(--radius);
+  border:1px solid color-mix(in srgb,var(--brand) 30%,transparent);
+  background:color-mix(in srgb,var(--brand) 8%,var(--bg));
+}
+.blk-unico__ico{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--brand)}
+.blk-unico__ico svg{width:100%;height:100%}
+.blk-unico__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h3,1.6rem);
+  line-height:var(--lh-display);color:var(--ink);
+}
+.blk-unico__texto{margin:var(--sp-2) 0 0;max-width:46rem;line-height:1.6;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-unico__motivo{margin-top:var(--sp-4);color:var(--brand)}
+@media (min-width:48rem){
+  .blk-unico__faixa{grid-template-columns:auto 1fr;padding:var(--sp-4)}
+}
+</style>
